@@ -35,6 +35,16 @@ nav {
   margin-left: -600px;
   padding: 0 15px;
 }
+nav .logo {
+  display: flex;
+  align-self: center;
+  width: 400px;
+  justify-content: center;
+}
+nav .logo p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
 nav .links {
   width: 800px;
   align-self: center;
@@ -45,4 +55,8 @@ nav .links a {
   color: #F8D9E5;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  margin: 80px auto 0 auto;
 }
