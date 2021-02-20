@@ -66,3 +66,21 @@ nav .links a {
   margin: 80px auto 0 auto;
   text-align: center;
 }
+
+.about-me {
+  margin: 80px auto 0 auto;
+  text-align: center;
+  width: 1000px;
+}
+.about-me .information {
+  display: flex;
+  height: 450px;
+}
+.about-me .image {
+  height: 100%;
+  width: 50%;
+  background-color: cadetblue;
+}
+.about-me .text {
+  width: 50%;
+}
