@@ -1,5 +1,5 @@
 nav {
-    background-color: #7BABEA;
+    background-color: $french;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -21,6 +21,9 @@ nav {
         width:400px;
         justify-content: center;
         p{
+            color: $corn;
+            font-size: large;
+            font-weight: bold;
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
         }
@@ -32,7 +35,7 @@ nav {
         display: flex;
         justify-content: space-evenly;
         a{
-            color: $mimi;
+            color: $corn;
             text-decoration: none;
             font-family: Arial, Helvetica, sans-serif;
         }
