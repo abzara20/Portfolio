@@ -1,4 +1,10 @@
 .school-projects{
     margin: 80px auto 0 auto;
     text-align: center;
+    width: 80%;
+    .project-container{
+        height: $project-height;
+        width: $project-width;
+        background-color: $corn;
+    }
 }

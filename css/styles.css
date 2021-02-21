@@ -93,6 +93,12 @@ nav .links a {
 .school-projects {
   margin: 80px auto 0 auto;
   text-align: center;
+  width: 80%;
+}
+.school-projects .project-container {
+  height: 400px;
+  width: 300px;
+  background-color: #f1e4a8;
 }
 
 .about-me {
