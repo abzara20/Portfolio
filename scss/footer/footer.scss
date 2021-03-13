@@ -1,0 +1,11 @@
+footer{
+    background-color: $french;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    border-top: 4px solid $white;
+    padding: 2% 0 0 5%;
+}

@@ -20,6 +20,11 @@ p {
   margin-bottom: 16px;
 }
 
+.content {
+  height: 100%;
+  position: relative;
+}
+
 nav {
   background-color: #7BABEA;
   display: flex;
@@ -55,45 +60,73 @@ nav .links {
   justify-content: space-evenly;
 }
 nav .links a {
-  color: #F8D9E5;
+  color: #2b0a86;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.main {
-  height: 70%;
-  width: 80%;
-  margin: 100px auto 0 auto;
-  text-align: center;
-  border: 8px solid #fff;
+footer {
+  background-color: #7BABEA;
+  position: absolute;
+  bottom: 0;
   display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  border-top: 4px solid #fff;
+  padding: 2% 0 0 5%;
 }
-.main .title {
-  width: 50%;
-  padding: 5%;
-  border-right: 8px solid #fff;
-}
-.main .title h1 {
-  font-size: 70px;
-  color: #7BABEA;
-}
-.main .title h2 {
-  font-size: 60px;
+
+.main {
+  min-height: 600px;
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 50px;
 }
 .main .tagline {
-  width: 50%;
-  color: #F8D9E5;
-  background-color: #7BABEA;
+  width: 100%;
+  color: #7BABEA;
   padding: 10% 5%;
 }
 .main .tagline h3 {
   font-size: xx-large;
+  color: #7BABEA;
+}
+.main .tagline h1 {
+  font-size: 70px;
+  color: #F8D9E5;
+}
+.main .tagline p {
+  font-size: x-large;
+}
+.main .tagline .buttons {
+  margin-top: 30px;
+}
+.main .tagline .buttons button {
+  margin: 25px;
+  width: 140px;
+  height: 60px;
+  background-color: #F8D9E5;
+  font-size: 20px;
+  color: #2b0a86;
+  border-radius: 10px;
+  border: 5px solid #F8D9E5;
+  box-shadow: inset 0 0 0 3px #2b0a86;
+  transition: all 0.5s ease-in-out;
+}
+.main .tagline .buttons button:hover {
+  background-color: #7BABEA;
+  border: #2b0a86;
+  transform: scale(1.3);
 }
 
 .school-projects {
   margin: 80px auto 0 auto;
   text-align: center;
-  width: 80%;
+  max-width: 950px;
 }
 .school-projects .project-container {
   height: 400px;
