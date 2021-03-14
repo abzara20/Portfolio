@@ -1,17 +1,53 @@
 .about-me{
-    margin: 80px auto 0 auto;
+    margin: 8% auto 0 auto;
     text-align: center;
-    width: 1000px;
+    height: 100%;
+    max-width: 1000px;
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: $deepblue;
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    
     .information{
         display: flex;
-        height: 450px;
+        height: 100%;
+        flex-direction: column;
     }
     .image{
-        height: 100%;
-        width: 50%;
-        background-color: cadetblue;
+        margin: 0 auto;
+        height:400px;
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        background-color: black;
+        .slide-image{
+            img{
+                height: 400px;
+            }  
+        }
+        .caption{
+            position: absolute;
+            color: $white;
+            font-family: Arial;
+            bottom:8px;
+            left:10%;
+        }
+    }
+    .controls{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        font-size: 30px;
+        a{
+            margin: 0 40px;
+        }
     }
     .text{
-        width: 50%;
+        width: 80%;
+        margin: 0 auto;
     }
 }
