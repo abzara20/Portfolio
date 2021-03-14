@@ -21,7 +21,8 @@ p {
 }
 
 .content {
-  height: 100%;
+  margin-top: 60px;
+  height: 100vh;
   position: relative;
 }
 
@@ -165,11 +166,73 @@ footer {
 }
 
 .contact-form {
-  height: 70%;
-  width: 80%;
-  margin: 100px auto 0 auto;
+  height: 100%;
+  max-width: 1000px;
+  margin: 8% auto 0 auto;
   text-align: center;
   border: 8px solid #fff;
+}
+.contact-form h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #200961;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.contact-form h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7BABEA;
+  font-size: 40px;
+}
+.contact-form .form-container {
   display: flex;
   flex-direction: column;
+}
+.contact-form .form-container .row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.contact-form .form-container .row .half-length {
+  font-family: Arial;
+  font-size: 16px;
+  width: 45%;
+  height: 40px;
+  border: 3px solid #7BABEA;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.contact-form .form-container .row .full-length {
+  font-family: Arial;
+  font-size: 16px;
+  width: 90%;
+  height: 40px;
+  border: 3px solid #7BABEA;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.contact-form .form-container .row .full-length-text {
+  font-family: Arial;
+  font-size: 16px;
+  width: 90%;
+  height: 150px;
+  border: 3px solid #7BABEA;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.contact-form .form-container .submit-button #button {
+  margin: 25px;
+  width: 140px;
+  height: 60px;
+  background-color: #200961;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+  border: 5px solid #200961;
+  box-shadow: inset 0 0 0 3px #fff;
+  transition: all 0.3s ease-in-out;
+}
+.contact-form .form-container .submit-button #button:hover {
+  background-color: #7BABEA;
+  transform: scale(1.3);
 }

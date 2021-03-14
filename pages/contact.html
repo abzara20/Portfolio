@@ -23,21 +23,24 @@
             </div>
         </nav>
         <section class="contact-form">
-            <h1>Let's get in Contact!</h1>
+            <h1><u>Let's get in Contact!</u></h1>
             <h3>abzara@iu.edu</h3>
             <div class="form-container">
-                <form>
+                <form action="https://formspree.io/f/moqpgkwj" method="POST">
                     <div class="row">
-                        <input type="text" placeholder="name">
-                        <input type="text" placeholder="email">
+                        <input class="half-length" type="text" placeholder="name">
+                        <input class="half-length" type="text" placeholder="email">
                     </div>
                     <div class="row">
-                        <input type="text" placeholder="subject">
+                        <input class="full-length" type="text" placeholder="subject">
                     </div>
                     <div class="row">
-                        <textarea name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
+                        <textarea class="full-length-text" name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
                     </div>
-                    <div class="row"><button>Submit</button></div>
+    
+                    <div class="submit-button">
+                        <input id="button" type="submit" value="Send">
+                    </div>
                 </form>
             </div>
         </section>
