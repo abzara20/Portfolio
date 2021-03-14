@@ -136,7 +136,12 @@ footer {
   text-align: center;
   max-width: 950px;
 }
-.school-projects .project-container {
+.school-projects .container {
+  background-color: #F8D9E5;
+  display: flex;
+  flex-wrap: wrap;
+}
+.school-projects .container .project-container {
   height: 400px;
   width: 300px;
   background-color: #7BABEA;
@@ -151,7 +156,6 @@ footer {
 .about-me {
   margin: 8% auto 0 auto;
   text-align: center;
-  height: 100%;
   max-width: 1000px;
 }
 .about-me h1 {
@@ -167,15 +171,15 @@ footer {
 }
 .about-me .image {
   margin: 0 auto;
-  height: 400px;
-  width: 600px;
+  height: 300px;
+  width: 500px;
   display: flex;
   justify-content: center;
   position: relative;
   background-color: black;
 }
 .about-me .image .slide-image img {
-  height: 400px;
+  height: 300px;
 }
 .about-me .image .caption {
   position: absolute;
@@ -194,8 +198,10 @@ footer {
   margin: 0 40px;
 }
 .about-me .text {
-  width: 80%;
-  margin: 0 auto;
+  width: 60%;
+  margin: 20px auto;
+  color: #200961;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact-form {

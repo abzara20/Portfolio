@@ -1,7 +1,7 @@
 .about-me{
     margin: 8% auto 0 auto;
     text-align: center;
-    height: 100%;
+    // height: 100%;
     max-width: 1000px;
 
     h1{
@@ -18,15 +18,15 @@
     }
     .image{
         margin: 0 auto;
-        height:400px;
-        width: 600px;
+        height:300px;
+        width: 500px;
         display: flex;
         justify-content: center;
         position: relative;
         background-color: black;
         .slide-image{
             img{
-                height: 400px;
+                height: 300px;
             }  
         }
         .caption{
@@ -47,7 +47,9 @@
         }
     }
     .text{
-        width: 80%;
-        margin: 0 auto;
+        width: 60%;
+        margin: 20px auto;
+        color: $deepblue;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
