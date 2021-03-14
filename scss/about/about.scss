@@ -47,9 +47,13 @@
         }
     }
     .text{
+        text-align: left;
         width: 60%;
         margin: 20px auto;
-        color: $deepblue;
+        color: $french;
         font-family: Arial, Helvetica, sans-serif;
+        .download-button{
+            text-align: center;
+        }
     }
 }
