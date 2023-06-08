@@ -1,53 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="../css/styles.css">
-</head>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
 
-<body>
+  <body>
     <div class="content">
-        <nav>
-            <div class="logo">
-                <p>Abril Zaragoza-Palos</p>
+      <nav>
+        <div class="logo">
+          <p>Abril Zaragoza-Palos</p>
+        </div>
+        <div class="links">
+          <a href="../index.html">Home</a>
+          <!-- <a href="graphic-portfolio.html">Artwork</a> -->
+          <a href="coding-portfolio.html">Code Projects</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+        </div>
+      </nav>
+      <section class="contact-form">
+        <h1><u>Get in Contact!</u></h1>
+        <h3>abril.zaragozapalos@gmail.com</h3>
+        <div class="form-container">
+          <form action="https://formspree.io/f/moqpgkwj" method="POST">
+            <div class="row">
+              <input
+                class="half-length"
+                type="text"
+                placeholder="name"
+                name="name"
+              />
+              <input
+                class="half-length"
+                type="text"
+                placeholder="email"
+                name="email"
+              />
             </div>
-            <div class="links">
-                <a href="../index.html">Home</a>
-                <!-- <a href="graphic-portfolio.html">Artwork</a> -->
-                <a href="coding-portfolio.html">Code Projects</a>
-                <a href="contact.html">Contact</a>
-                <a href="about.html">About</a>
+            <div class="row">
+              <input
+                class="full-length"
+                type="text"
+                placeholder="subject"
+                name="subject"
+              />
             </div>
-        </nav>
-        <section class="contact-form">
-            <h1><u>Get in Contact!</u></h1>
-            <h3>abzara@iu.edu</h3>
-            <div class="form-container">
-                <form action="https://formspree.io/f/moqpgkwj" method="POST">
-                    <div class="row">
-                        <input class="half-length" type="text" placeholder="name">
-                        <input class="half-length" type="text" placeholder="email">
-                    </div>
-                    <div class="row">
-                        <input class="full-length" type="text" placeholder="subject">
-                    </div>
-                    <div class="row">
-                        <textarea class="full-length-text" name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
-                    </div>
-    
-                    <div class="submit-button">
-                        <input id="button" type="submit" value="Send">
-                    </div>
-                </form>
+            <div class="row">
+              <textarea
+                class="full-length-text"
+                name="message"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="message"
+              ></textarea>
             </div>
-        </section>
 
-        <footer>
-            <p>&copy; 2021 by Abril Zaragoza-Palos</p>
-        </footer>
+            <div class="submit-button">
+              <input id="button" type="submit" value="Send" />
+            </div>
+          </form>
+        </div>
+      </section>
     </div>
-</body>
+    <footer>
+      <p>&copy; 2023 by Abril Zaragoza-Palos</p>
+    </footer>
+  </body>
 </html>

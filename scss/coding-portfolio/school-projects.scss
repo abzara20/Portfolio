@@ -1,47 +1,56 @@
-.school-projects{
-    margin: 80px auto 0 auto;
-    text-align: center;
-    max-width: 1000px;
-    min-height: 300px;
-    
-    .container{
-        // background-color: $mimi;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin-top: 10%;
-        .project-container{
-            margin: 10px 25px 0 25px;
-            border-radius: 10px;
-            overflow: hidden;
-            height: $project-height;
-            width: $project-width;
-            position:relative;
+.school-projects {
+  margin: 80px auto 0 auto;
+  text-align: center;
+  max-width: 1000px;
+  min-height: 300px;
 
-            // background-color: $french;
-            border: 3px solid $deepblue;
+  .container {
+    // background-color: $mimi;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    .project-container {
+      margin: 10px 25px 10px 25px;
+      border-radius: 10px;
+      overflow: hidden;
+      height: $project-height;
+      width: $project-width;
+      position: relative;
+      text-align: center;
 
-            img{ 
-                height: $project-height;
-                width: $project-width;
-            }
-            .text-overlay{
-                position: absolute;
-                top: 0;
-                padding: 20% 5%;
-                bottom: 0;
-                width: 100%;
-                height: 100%;
-                background-color: rgba($color: #000000, $alpha: .7);
-                color: $white;
-                font-family: Arial;
-                font-size: 20px;
-                opacity: 0;
-                transition: .5 ease-in-out;
-            }
-            .text-overlay:hover{
-                opacity: 1;
-            }
-        }
-    }  
+      background-color: $french;
+      border: 3px solid $deepblue;
+
+      img {
+        margin: 10px;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 20px rgb(49, 48, 48);
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: $white;
+      }
+      .text-overlay {
+        position: absolute;
+        top: 0;
+        padding: 20% 5%;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.7);
+        color: $white;
+        font-family: Arial;
+        font-size: 20px;
+        opacity: 0;
+        transition: 0.5 ease-in-out;
+      }
+      .text-overlay:hover {
+        opacity: 1;
+      }
+    }
+  }
 }

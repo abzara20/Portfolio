@@ -1,59 +1,59 @@
-.about-me{
-    margin: 8% auto 0 auto;
-    text-align: center;
-    // height: 100%;
-    max-width: 1000px;
+.about-me {
+  margin: 40px auto 0 auto;
+  text-align: center;
+  // height: 100%;
+  max-width: 1000px;
 
-    h1{
-        font-family: Arial, Helvetica, sans-serif;
-        color: $deepblue;
-        font-size: 60px;
-        margin-bottom: 20px;
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: $deepblue;
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  .information {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+  }
+  .image {
+    margin: 0 auto;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    .slide-image {
+      img {
+        height: 300px;
+      }
     }
-    
-    .information{
-        display: flex;
-        height: 100%;
-        flex-direction: column;
+    .caption {
+      position: absolute;
+      color: $white;
+      font-family: Arial;
+      bottom: 8px;
+      left: 10%;
     }
-    .image{
-        margin: 0 auto;
-        height:300px;
-        width: 500px;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        background-color: black;
-        .slide-image{
-            img{
-                height: 300px;
-            }  
-        }
-        .caption{
-            position: absolute;
-            color: $white;
-            font-family: Arial;
-            bottom:8px;
-            left:10%;
-        }
+  }
+  .controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    a {
+      margin: 0 40px;
     }
-    .controls{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 40px;
-        font-size: 30px;
-        a{
-            margin: 0 40px;
-        }
+  }
+  .text {
+    text-align: left;
+    width: 60%;
+    margin: 20px auto;
+    color: $deepblue;
+    font-family: Arial, Helvetica, sans-serif;
+    .download-button {
+      text-align: center;
     }
-    .text{
-        text-align: left;
-        width: 60%;
-        margin: 20px auto;
-        color: $french;
-        font-family: Arial, Helvetica, sans-serif;
-        .download-button{
-            text-align: center;
-        }
-    }
+  }
 }

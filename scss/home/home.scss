@@ -1,63 +1,64 @@
-.main{
-    min-height: 600px;
-    max-width: 1000px;
-    margin: 0 auto 0 auto;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    // background-color: rgba($deepblue,.5);
-    padding-top:30px;
-    // border: 8px solid $white;
-    .tagline{
-        width: 100%;
-        color: $french;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        // background-color: $french;
-        padding: 10% 5%;
+.main {
+  min-height: 600px;
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  // background-color: rgba($deepblue,.5);
+  padding-top: 30px;
+  // border: 8px solid $white;
+  .tagline {
+    width: 100%;
+    color: $french;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: $french;
+    padding: 0 5%;
 
-        h3{
-            font-size: xx-large;
-        }
-        h1{
-            font-size: 70px;
-            // color: $white;
-            color: $deepblue;
-        }
-        p{
-            font-size: x-large;
-        }
-
-        .image-container{
-            height: 300px;
-            width: 300px;
-            margin: 20px;
-            background-image: url("../images/profile_image.jpg");
-            background-size: cover;
-            background-position: center;
-            border: 4px solid $french;
-            border-radius: 200px;
-        }
-        .buttons{
-            margin-top: 15px;
-
-            button{
-                margin: 25px;
-                width: 140px;
-                height: 60px;
-                background-color: $deepblue;
-                font-size: 20px;
-                color:$white;
-                border-radius: 10px;
-                border: 5px solid $deepblue;
-                box-shadow: inset 0 0 0 3px $white;
-                transition: all .3s ease-in-out;
-            }
-
-            button:hover{
-                background-color: $french;
-                transform: scale(1.3);
-            }
-        }
+    h3 {
+      font-size: xx-large;
     }
+    h1 {
+      font-size: 70px;
+      // color: $white;
+      color: $deepblue;
+      margin: 0;
+    }
+    p {
+      font-size: x-large;
+    }
+
+    .image-container {
+      height: 300px;
+      width: 300px;
+      margin: 20px;
+      background-image: url("../images/profile_image.jpg");
+      background-size: cover;
+      background-position: center;
+      border: 4px solid $french;
+      border-radius: 200px;
+    }
+    .buttons {
+      margin-top: 15px;
+
+      button {
+        margin: 25px;
+        width: 140px;
+        height: 60px;
+        background-color: $deepblue;
+        font-size: 20px;
+        color: $white;
+        border-radius: 10px;
+        border: 5px solid $deepblue;
+        box-shadow: inset 0 0 0 3px $white;
+        transition: all 0.3s ease-in-out;
+      }
+
+      button:hover {
+        background-color: $french;
+        transform: scale(1.3);
+      }
+    }
+  }
 }
